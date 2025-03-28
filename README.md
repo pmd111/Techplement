@@ -32,14 +32,9 @@ quote-app/
 │   ├── quotes.db  # SQLite Database
 │   ├── package.json  # Backend dependencies
 │── README.md      # Project Info
+
 ⚙️ Installation & Setup
-1️⃣ Clone the Repository
-sh
-Copy
-Edit
-git clone https://github.com/your-username/quote-app.git
-cd quote-app
-2️⃣ Setup Backend (Server)
+1️⃣ Setup Backend (Server)
 sh
 Copy
 Edit
@@ -48,7 +43,7 @@ npm install
 node server.js
 🟢 Server will run on http://localhost:5000
 
-3️⃣ Setup Frontend (Client)
+2️⃣ Setup Frontend (Client)
 sh
 Copy
 Edit
@@ -56,13 +51,6 @@ cd client
 npm install
 npm start
 🟢 Frontend will run on http://localhost:3000
-
-📦 API Endpoints
-Method	Endpoint	Description
-GET	/random-quote	Fetch a random quote
-GET	/quotes?author={name}	Search quotes by author
-📸 Screenshots
-(Add screenshots of your app here if possible)
 
 📜 License
 This project is open-source under the MIT License.
